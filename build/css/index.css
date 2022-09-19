@@ -148,7 +148,6 @@ left: 0;
 
 .popup__body {
   min-height: 100%;
- width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -171,12 +170,96 @@ position: relative;
 
 .popup__title {
   cursor: pointer;
-margin: 0px 0px -0.5em 0px;
-}
-.popup__text {
-  margin: 0px 0px 0.5em 0px;
-
-  font-size: 14px;
-
+margin: 15px 15px 1em 15px;
 }
 
+.popup__decor-image {
+   display: inline-block;
+   padding-left: 40px;
+}
+
+.popup__text-1 {
+    display: inline;
+    position: relative;
+    left: 31px;
+  font-size: 18px;
+}
+
+.popup__text-2 {
+    display: inline;
+    position: relative;
+    left: 104px;
+  font-size: 18px;
+}
+
+.popup__text-3 {
+    display: inline;
+    position: relative;
+    left: 165px;
+  font-size: 18px;
+}
+
+.popup__text-4 {
+    display: inline;
+    position: relative;
+    left: 215px;
+  font-size: 18px;
+}
+
+.buttons {
+    display: flex;   
+}
+
+.button-1 {
+    display: inline-block;
+    color: rgb(251, 255, 251);
+    background-color: rgb(58, 217, 58);
+    font-size: 18px;
+    padding: 10px 25px 0.5em 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 15px;
+}
+
+.button-2 {
+    display: inline-block;
+    color: rgb(251, 255, 251);
+    background-color: rgb(58, 217, 58);
+    font-size: 18px;
+    padding: 10px 25px 0.5em 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+.button-3 {
+    display: inline-block;
+    color: rgb(251, 255, 251);
+    background-color: rgb(58, 217, 58);
+    font-size: 18px;
+    padding: 10px 25px 0.5em 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 88px;
+}
+.button-4 {
+    display: inline-block;
+    color: rgb(251, 255, 251);
+    background-color: rgb(58, 217, 58);
+    font-size: 18px;
+    padding: 10px 25px 0.5em 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 125px;
+}
+
+
+.timer {
+display: flex;
+   margin-top: 65px;
+} 
+
+.timer__header {
+    margin-left: 65px;
+font-size: 32px;
+}
+ 
