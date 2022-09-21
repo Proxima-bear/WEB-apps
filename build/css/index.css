@@ -141,7 +141,6 @@
 position: fixed; 
 width: 100%;
 height: 100%;
-background-color: grey;
 top: 0;
 left: 0;
 }
@@ -155,104 +154,59 @@ left: 0;
 }
 
 .popup__content {
-  border-radius: 15px;
-  border: 2px solid white;
-max-width: 800px;
-padding: 10px;
+  border-radius: 50px;
+  border: 2px solid grey;
+width: 360px;
+height: 100%;
+padding: 5px;
 position: relative;
 }
 .popup__close {
+  margin: 5px 5px 1em 5px;
   position: absolute;
-  right: 10px;
-  top: 10px;
-  font-size: 20px;
+  right: 15px;
+  top: 3px;
 }
 
 .popup__title {
   cursor: pointer;
-margin: 15px 15px 1em 15px;
+margin: 5px 5px 0.3em 5px;
 }
 
 .popup__decor-image {
-   display: inline-block;
-   padding-left: 40px;
+   display: inline;
+   width: 62px;
+   margin-left: 15px;
 }
 
-.popup__text-1 {
+.popup__text {
     display: inline;
+    margin-left: 7px;
     position: relative;
-    left: 31px;
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: 700;
+margin-bottom: 1em;
+text-align: center;
+justify-content: center;
 }
 
-.popup__text-2 {
-    display: inline;
-    position: relative;
-    left: 104px;
-  font-size: 18px;
-}
 
-.popup__text-3 {
-    display: inline;
-    position: relative;
-    left: 165px;
-  font-size: 18px;
-}
-
-.popup__text-4 {
-    display: inline;
-    position: relative;
-    left: 215px;
-  font-size: 18px;
-}
 
 .buttons {
     display: flex;   
 }
 
-.button-1 {
+.button {
     display: inline-block;
     color: rgb(251, 255, 251);
     background-color: rgb(58, 217, 58);
-    font-size: 18px;
-    padding: 10px 25px 0.5em 25px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 5px 0.5em 5px;
     border-radius: 5px;
-    position: relative;
-    left: 15px;
+    margin-left: 3px;
+  
 }
-
-.button-2 {
-    display: inline-block;
-    color: rgb(251, 255, 251);
-    background-color: rgb(58, 217, 58);
-    font-size: 18px;
-    padding: 10px 25px 0.5em 25px;
-    border-radius: 5px;
-    position: relative;
-    left: 50px;
-}
-.button-3 {
-    display: inline-block;
-    color: rgb(251, 255, 251);
-    background-color: rgb(58, 217, 58);
-    font-size: 18px;
-    padding: 10px 25px 0.5em 25px;
-    border-radius: 5px;
-    position: relative;
-    left: 88px;
-}
-.button-4 {
-    display: inline-block;
-    color: rgb(251, 255, 251);
-    background-color: rgb(58, 217, 58);
-    font-size: 18px;
-    padding: 10px 25px 0.5em 25px;
-    border-radius: 5px;
-    position: relative;
-    left: 125px;
-}
-
-
 .timer {
 display: flex;
    margin-top: 65px;
@@ -263,3 +217,10 @@ display: flex;
 font-size: 32px;
 }
  
+.timer__visual {
+  border-radius: 50px;
+  border: 4px solid orange;
+width: 260px;
+padding: 25px;
+
+}
