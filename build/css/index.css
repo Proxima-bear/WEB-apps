@@ -158,14 +158,14 @@ left: 0;
   border: 2px solid grey;
 width: 360px;
 height: 100%;
-padding: 5px;
+padding-top: 15px;
 position: relative;
 }
 .popup__close {
   margin: 5px 5px 1em 5px;
   position: absolute;
   right: 15px;
-  top: 3px;
+  top: 5px;
 }
 
 .popup__title {
@@ -199,28 +199,89 @@ justify-content: center;
 .button {
     display: inline-block;
     color: rgb(251, 255, 251);
-    background-color: rgb(58, 217, 58);
+    background-color: rgba(20, 174, 92, 1);
     font-size: 14px;
     font-weight: 700;
     padding: 5px 5px 0.5em 5px;
     border-radius: 5px;
+    margin-left: 5px;
+}
+.buttons_setings {
+  display: flex;
+}
+
+.button_plus {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  color: rgb(251, 255, 251);
+    background-color: rgba(20, 174, 92, 1);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 15px 0em 15px;
+    border-radius: 5px;
     margin-left: 3px;
   
 }
+
+.button_minus {
+ 
+  display: inline-block;
+  color: rgb(251, 255, 251);
+    background-color: rgb(174, 20, 20);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 15px 0em 15px;
+    border-radius: 5px;
+    margin-left: 3px;
+    text-align: center;
+  justify-content: center;
+}
+
 .timer {
 display: flex;
    margin-top: 65px;
 } 
 
 .timer__header {
-    margin-left: 65px;
+  margin-bottom: 12px;
+    margin-left: 75px;
 font-size: 32px;
 }
  
 .timer__visual {
+  text-align: center;
+  justify-content: center;
   border-radius: 50px;
   border: 4px solid orange;
 width: 260px;
 padding: 25px;
+margin-left: 40px;
+font-size: medium;
+font-weight: 600;
 
+}
+
+.pay-btn__wrpper {
+  width: 100%;
+  height: 110px;
+}
+
+.pay-btn {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  justify-content: center;
+  width: 101%;
+  height: 92px;
+  border-radius: 25px;
+  background-color: rgba(13, 153, 255, 1);
+}
+
+.pay-btn__text {
+  position: relative;
+  top: 35px;
+  font-size: 25px;
+  font-weight: 700px;
+  color: white;
 }
