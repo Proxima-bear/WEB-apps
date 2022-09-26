@@ -191,8 +191,7 @@ justify-content: center;
 }
 
 
-
-.buttons {
+.buttons__add {
     display: flex;   
 }
 
@@ -205,6 +204,7 @@ justify-content: center;
     padding: 5px 5px 0.5em 5px;
     border-radius: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }
 .buttons_setings {
   display: flex;
