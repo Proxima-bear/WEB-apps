@@ -1,11 +1,18 @@
-let timer = document.getElementsByClassName("timer__visual")[0];
+const init = () => {
+  let totalCost = 0;
 
-setInterval(stub, 100,"click", function ()
-{
-    timer.innerHTML = +button.innerHTML + 5;
+[...document.querySelectorAll('.button')].forEach((buttonItem) => {
+totalCost += buttonItem.querySelector('.input').value * buttonItem.querySelector('.input').dataset.price;
+
 });
 
-let button = document.getElementsByClassName("button")[0];
+document.getElementById('total-h').textContent = totalCost;
+
+};
+
+init();
+
+let button = document.getElementById(".button__1h")[0];
 
 elementToDetect[0].addEventListener("click", function(){
   this.style.visibility = "hidden";
