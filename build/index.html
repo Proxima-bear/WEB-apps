@@ -1,76 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Document</title>
+
 </head>
+
 <body>
-    
- <div class="popup">
- <div class="popup__body">
-    <div class="popup__content">
-    <a href="" class="popup__close">X</a>
-    <div class="popup__title">
-        <img class="popup__decor-image" src="img/icons/Group 5.svg"
-        alt="Декоративное изображение (Иконка)"   />
 
-        <img class="popup__decor-image" src="img/icons/Group 5.svg"
-        alt="Декоративное изображение (Иконка)" />
-        <img class="popup__decor-image" src="img/icons/Group 5.svg"
-        alt="Декоративное изображение (Иконка)" />
-        <img class="popup__decor-image" src="img/icons/Group 5.svg"
-        alt="Декоративное изображение (Иконка)" />
-       
-         </div>
-    
-         <div class="popup__text">1 час. 120₽</div>
-         <div class="popup__text">3 часа. 260₽</div>
-         <div class="popup__text">5 часов. 460₽</div>
-         <div class="popup__text">10 часов. 650₽</div>
+  <div class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <div class="popup__title">
+          <img class="popup__decor-image" src="img/icons/Group 5.svg" alt="Декоративное изображение (Иконка)" />
 
-         <div class="buttons__add" id="buttons__add-id">
-          <a href="">
-          <input class="button input 1h" type="button" value="Добавить" data-price="120" disabled />
-          <input class="button input 3h"  type="button" value="Добавить" data-price="260">
-          <input class="button input 5h" type="button" value="Добавить" data-price="460">
-          <input class="button input 10h" type="button" value="Добавить" data-price="650">
+          <img class="popup__decor-image" src="img/icons/Group 5.svg" alt="Декоративное изображение (Иконка)" />
+          <img class="popup__decor-image" src="img/icons/Group 5.svg" alt="Декоративное изображение (Иконка)" />
+          <img class="popup__decor-image" src="img/icons/Group 5.svg" alt="Декоративное изображение (Иконка)" />
+
+        </div>
+
+        <div class="popup__text">1 час. 120₽</div>
+        <div class="popup__text">3 часа. 260₽</div>
+        <div class="popup__text">5 часов. 460₽</div>
+        <div class="popup__text">10 часов. 650₽</div>
+
+        <div class="buttons__add" id="buttons__add-id">
+
+          <a href="" class="button">
+            <span class="button__add-text">Добавить</span>
           </a>
-          </div>
+          <a href="" class="button">
+            <span class="button__add-text">Добавить</span>
+          </a>
+          <a href="" class="button">
+            <span class="button__add-text">Добавить</span>
+          </a>
+          <a href="" class="button">
+            <span class="button__add-text">Добавить</span>
+          </a>
 
-          
-         <div class="buttons_setings">
-         <p> <input class="button_plus" type="button" value="+"> 
-                  <input class="button_minus" type="button" value="-"></p>
-                  <p> <input class="button_plus" type="button" value="+"> 
-                    <input class="button_minus" type="button" value="-"></p>
-                    <p> <input class="button_plus" type="button" value="+"> 
-                      <input class="button_minus" type="button" value="-"></p>
-                      <p> <input class="button_plus" type="button" value="+"> 
-                        <input class="button_minus" type="button" value="-"></p>
-                        
-                </div>
+        </div>
 
-         <div class="timer">
-            <h1 class="timer__header">Ваш таймер</h1>
-              </div>
-              <div class="timer__visual"><span id="total-h"></span>h</div>
 
-              <div class="pay-btn__wrpper">
-              <a href="" class="pay-btn">
-                <span class="pay-btn__text">Оплатить...</span>
-              </a>
-              </div>
+        <div class="buttons_setings">
+
+          <a href="" class="button_plus">
+            <span class="button_symbol">+</span>
+          </a>
+          <a href="" class="button_minus">
+            <span class="button_symbol">-</span>
+          </a>
+          <a href="" class="button_plus">
+            <span class="button_symbol">+</span>
+          </a>
+          <a href="" class="button_minus">
+            <span class="button_symbol">-</span>
+          </a>
+          <a href="" class="button_plus">
+            <span class="button_symbol">+</span>
+          </a>
+          <a href="" class="button_minus">
+            <span class="button_symbol">-</span>
+          </a>
+          <a href="" class="button_plus">
+            <span class="button_symbol">+</span>
+          </a>
+          <a href="" class="button_minus">
+            <span class="button_symbol">-</span>
+          </a>
+        </div>
+
+        <div class="timer">
+          <h1 class="timer__header">Ваш таймер</h1>
+        </div>
+        <div class="timer__visual"><span id="total-h"></span>h</div>
+
+        <div class="pay-btn__wrpper">
+          <a href="" class="pay-btn">
+            <span class="pay-btn__text">Оплатить...</span>
+          </a>
+        </div>
+      </div>
+
     </div>
-    
- </div>
- </div>
- 
-    
-   
-    <script src="main.js"></script>
+  </div>
+
+
+
+  <script src="main.js"></script>
 </body>
+
 </html>
