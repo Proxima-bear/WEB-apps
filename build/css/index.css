@@ -364,6 +364,25 @@ mix-blend-mode: color;
 
 }
 
+@media screen and (min-width:300px) and (max-width:374px) {
+  .popup__text {
+    width: 100%;
+    margin-left: 1.5%;
+   
+}
+.button {
+  margin-left: 1%;
+}
+.button_plus {
+  margin-left: 1.5%;
+}
+
+.button_minus {
+  margin-left: 0%;
+}
+
+}
+
 
 
 .timer {
