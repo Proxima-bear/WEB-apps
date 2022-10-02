@@ -227,9 +227,8 @@ left: 0;
 .popup__body {
   min-height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 10px;
+  padding: 15px 5px;
+  padding-top: 16px;
 }
 
 .popup__content {
