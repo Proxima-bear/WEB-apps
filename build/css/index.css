@@ -222,6 +222,7 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
+background-color: white;
 }
 
 .popup__body {
@@ -229,6 +230,8 @@ left: 0;
   display: flex;
   padding: 15px 5px;
   padding-top: 16px;
+  background-color: white;
+
 }
 
 .popup__content {
@@ -237,6 +240,8 @@ width: 100%;
 height: 100%;
 padding-top: 15px;
 position: relative;
+background-color: white;
+
 }
 
 
@@ -284,9 +289,11 @@ mix-blend-mode: color;
     cursor: pointer;
     visibility: visible;
 }
-.buttons_setings {
-  display: flex;
+.btn_style {
+  margin-left: 3%;
 }
+
+
 
 .button_plus {
   text-align: center;
@@ -319,6 +326,9 @@ mix-blend-mode: color;
   opacity: 0.3;
   cursor: pointer;
 }
+
+
+
 @media screen and (min-width:600px) and (max-width:685px) {
   .popup__text {
     width: 100%;
@@ -381,6 +391,31 @@ mix-blend-mode: color;
 }
 
 }
+.buttons_setings {
+display: flex;
+
+}
+
+
+.one_hour {
+  margin-left: 2.5%;
+}
+
+
+.three_hours {
+  margin-left: 2.5%;
+}
+
+.five_hours {
+  margin-left: 2.5%;
+}
+
+
+.ten_hours {
+  margin-left: 2%;
+}
+
+
 
 
 
@@ -391,7 +426,9 @@ display: flex;
 
 .timer__header {
   margin-bottom: 12px;
-    margin-left: 22%;
+  text-align: center;
+  justify-content: center;
+    margin-left: 25%;
 font-size: 32px;
 }
  
@@ -402,7 +439,7 @@ font-size: 32px;
   border: 4px solid orange;
 width: 80%;
 padding: 25px;
-margin-left: 10%;
+margin-left: 7%;
 font-size: medium;
 font-weight: 600;
 
@@ -415,7 +452,7 @@ font-weight: 600;
 
 .pay-btn {
   position: relative;
-  top: 20px;
+  top: 35px;
   text-align: center;
   justify-content: center;
   width: 100%;
