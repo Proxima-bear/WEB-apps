@@ -368,6 +368,9 @@ mix-blend-mode: color;
   margin-left: 4.5%;
   
 }
+ .button_plus {
+  margin-left: 3%;
+ }
 
 }
 
@@ -380,13 +383,7 @@ mix-blend-mode: color;
 .button {
   margin-left: 1%;
 }
-.button_plus {
-  margin-left: 1.5%;
-}
 
-.button_minus {
-  margin-left: 1.5%;
-}
 
 }
 .buttons_setings {
@@ -395,23 +392,6 @@ display: flex;
 }
 
 
-.one_hour {
-  margin-left: 3.5%;
-}
-
-
-.three_hours {
-  margin-left: 3.5%;
-}
-
-.five_hours {
-  margin-left: 3.5%;
-}
-
-
-.ten_hours {
-  margin-left: 3.5%;
-}
 
 
 
